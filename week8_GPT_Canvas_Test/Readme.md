@@ -1,3 +1,88 @@
+# **Machine Learning Model Comparison Framework**
+
+This project provides a reusable framework to compare machine learning models for classification tasks. It focuses on Logistic Regression, Generalized Linear Models (GLMs), and Decision Trees, along with baseline evaluation using a Dummy Classifier. The framework also includes model evaluation metrics, hyperparameter tuning, and visualizations.
+
+---
+
+## **Table of Contents**
+
+1. [Project Description](#project-description)
+2. [Features](#features)
+3. [Prerequisites](#prerequisites)
+4. [Installation](#installation)
+5. [Usage](#usage)
+6. [Notebook Structure](#notebook-structure)
+7. [Supported Models](#supported-models)
+8. [Evaluation Metrics](#evaluation-metrics)
+9. [Future Enhancements](#future-enhancements)
+10. [License](#license)
+
+---
+
+## **Project Description**
+
+This framework allows users to:
+- Load and preprocess datasets (scaling numeric variables, encoding categorical variables).
+- Train baseline and advanced models for classification tasks.
+- Evaluate models using various performance metrics.
+- Compare model performance using ROC curves, confusion matrices, and statistical measures.
+- Visualize results for better interpretability.
+
+The project is implemented in a Jupyter Notebook, designed for flexibility and interactivity.
+
+---
+
+## **Features**
+
+1. **Baseline Evaluation**:
+   - Dummy Classifier to establish a baseline for model comparison.
+
+2. **Advanced Models**:
+   - Logistic Regression
+   - Generalized Linear Models (GLMs)
+   - Decision Trees
+
+3. **Evaluation Metrics**:
+   - Accuracy, F1-Score, ROC AUC, MCC, and more.
+
+4. **Visualizations**:
+   - Confusion Matrices
+   - ROC Curves
+
+5. **Hyperparameter Tuning**:
+   - Built-in support for Grid Search to optimize Decision Trees and other models.
+
+6. **Reusability**:
+   - Modular functions for loading data, preprocessing, training, and evaluation.
+
+---
+
+## **Prerequisites**
+
+- Python 3.8 or later
+- Jupyter Notebook installed
+- Required Python libraries:
+  - `pandas`
+  - `numpy`
+  - `scikit-learn`
+  - `statsmodels`
+  - `matplotlib`
+  - `seaborn`
+
+---
+
+## **Installation**
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd <repository-folder>
+
+pip install -r requirements.txt
+
+
+jupyter notebook
+
 ## **Usage**
 
 ### **1. Prepare Your Dataset**:
